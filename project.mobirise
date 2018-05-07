@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "past courses.html",
+    "currentPage": "past events.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 189,
     "versionPublish": "4.7.2",
@@ -8387,10 +8387,10 @@
         }
       ]
     },
-    "page15.html": {
+    "tajweed course.html": {
       "settings": {
         "meta_descr": "Website Maker Description",
-        "title": "tajweed_course",
+        "title": "tajweed course",
         "order": 1
       },
       "components": [
