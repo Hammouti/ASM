@@ -2549,6 +2549,10 @@ body {
 .cid-qQDYELpL7Z H1 {
   text-align: center;
 }
+.cid-qQDYELpL7Z .mbr-text,
+.cid-qQDYELpL7Z .mbr-section-btn {
+  text-align: left;
+}
 .cid-qQHpIInTtT {
   padding-top: 30px;
   padding-bottom: 15px;
