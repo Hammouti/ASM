@@ -20,7 +20,21 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+<style>
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+</style> 
 </head>
 <body>
   <section class="menu cid-qO6fTQyO0z" once="menu" id="menu1-bv">
@@ -77,7 +91,9 @@
                 <div><span style="color: inherit; font-size: 3rem;">&nbsp;</span><br></div></h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"></h3>
                 
-				<iframe src="https://www.google.com/maps/d/embed?mid=1zSNu2sk5scxD9gNDR8CLG9EK-yh6tfh1" width="840" height="500"></iframe>
+				<div class="map-responsive">
+				<iframe src="https://www.google.com/maps/d/embed?mid=1zSNu2sk5scxD9gNDR8CLG9EK-yh6tfh1" width="800" height="600"></iframe>
+				</div>
 				
             </div>
         </div>
